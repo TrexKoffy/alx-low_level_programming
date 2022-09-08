@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/**                                               *main - Entry point                               *Description: Using the puts function for Betty   *Return: Always 0 (Success)                       */                                              
+/**
+* main - Entry point
+*Description: Using the printf function for Betty
+*Return: Always 0 (Success)
+*/                                              
 int main(void)  
 {                                               
 	printf("with proper grammar, but the outcome is a piece of art,\n");
