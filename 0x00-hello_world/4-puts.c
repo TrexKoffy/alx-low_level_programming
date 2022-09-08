@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
-*main - Entry point 
+*main - Entry point
 *Description: Using the puts function for Betty
 *Return: Always 0 (Success)
 */
