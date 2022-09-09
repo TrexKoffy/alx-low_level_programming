@@ -9,15 +9,14 @@
 */
 int main(void)
 {
-    int n;
-
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-    if (n > 0)
-        printf("%d is a positive number \n", n);
-    else if (n < 0)
-        printf("%d is a negative number \n", n);
-    else
-        printf("0 is neither positive nor negative");
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is  positive \n", n);
+else if (n < 0)
+printf("%d is  negative \n", n);
+else
+printf("0 is zero");
 return (0);
 }
