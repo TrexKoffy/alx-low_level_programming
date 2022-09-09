@@ -4,7 +4,7 @@
 
 /**
 *main - Entry point
-*Description: code will print whether n is negative or positive
+*Description: code will print last digit
 *Return: always 0
 */
 int main(void)
