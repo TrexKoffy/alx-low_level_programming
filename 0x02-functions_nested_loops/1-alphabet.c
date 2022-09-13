@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-*main - Prints all possible combinations of two two-digit numbers,
+*main - Prints the alpgabet jn lower case followed by a line.
 *
 *Return: Always 0.
 */
 
 void print_alphabet(void)
 {
-char small;
+	char small;
 
-	for(small = 'a'; small <= 'z' ; small++)
+	for (small = 'a'; small <= 'z' ; small++)
 	_putchar (small);
 	_putchar ('\n');
 return (0);
