@@ -6,23 +6,12 @@
 *Return: Always 0.
 */
 
-int main(void)
-Task 3
-
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: alway returns 0
- *
- */
-int main(void)
+void print_alphabet(void);
 {
+char small;
 
-char a;
-
-for (a = 'a'; a <= 'z' ; a++)
-	_putchar (a);
+for (small = 'a'; small <= 'z' ; small++)
+	_putchar (small);
 	_putchar ('\n');
 return (0);
 }
