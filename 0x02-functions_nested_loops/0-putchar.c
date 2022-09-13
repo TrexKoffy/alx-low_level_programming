@@ -1,2 +1,2 @@
-main.h
+#include <main.h>
 
