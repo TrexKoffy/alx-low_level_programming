@@ -1,6 +1,6 @@
 /*
  * File: 10-print_triangle.c
- * 
+ *
  */
 
 #include "main.h"
