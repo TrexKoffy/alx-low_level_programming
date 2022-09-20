@@ -12,11 +12,34 @@ char *_strcpy(char *dest, const char *src)
 {
 	int index = 0;
 
-	while (src[index])
+	while (src[ndex])
 	{
 		dest[index] = src[index];
 		index++;
 	}
+
+	return (dest);
+}#include "main.h"
+
+/**
+* _strcpy - Copy paste string
+* @dest: destination
+* @src: source
+*
+* Return: destination
+*/
+
+char *_strcpy(char *dest, char *src)
+{
+	int inc = 0;
+
+	while (*(src + inc) != '\0')
+	{
+		*(dest + inc) = *(src + inc);
+		inc++;
+	}
+	*(dest + inc) = '\0';
+
 
 	return (dest);
 }
